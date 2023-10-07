@@ -1,0 +1,172 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*aside*/
+.color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+}
+
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #ad1010;
+    }
+
+    100% {
+        background: #330404;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #330404;
+    }
+
+    100% {
+        background: #ad1010;
+    }
+}
+
+/* Nav */
+.logo-img {
+    width: 95px;
+    height: auto;
+    
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+
+/*Aboutpage*/
+
+.containerStyle {
+    background-color: white;
+    color: darkred;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*services*/
+
+
+.sectionStyle {
+    
+    color: white;
+    padding: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.serviceStyle p {
+    font-size: 16px;
+    line-height: 1.5;
+    /* Otros estilos de párrafo */
+}
+/*
+.serviceStyle {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    min-height: 300px;
+}
+
+.rowservicestyle {
+    gap: 1em;
+    justify-content: space-between;
+    margin: 6%;
+}*/
+
+.imageStyle {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Mediaquery*/
+@media (min-width: 768px) {
+    .employee-aside {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container-aside {
+        margin-top: 5%
+    }
+
+
+    imageStyle {
+        max-width: 20%;
+        height: auto;
+    }
+
+    .serviceStyle {
+        max-width: 100%;
+        min-height: 150px;
+    }
+
+   
+
+    
+}
+
+@media (max-width: 767px) {
+    .employee-aside {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container-aside {
+        margin-top: 30%
+    }
+
+   /* .rowservicestyle {
+        gap: 1em;
+        flex-direction:column;
+        margin: 6%;
+    }
+    .serviceStyle {
+        max-width: 100%;
+        min-height: 150px;
+    }*/
+
+    
+
+    
+    serviceStyle p {
+        font-size: 14px;
+        line-height: 1.3;
+        /* Ajusta el tamaño y el espaciado del párrafo para dispositivos pequeños */
+    }
+
+    .sectionStyle {
+        height: 120vh;
+    }
+}
+
+
+
